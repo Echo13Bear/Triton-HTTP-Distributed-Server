@@ -144,7 +144,6 @@ pic.jpg index.txt
 We observe that pic.jpg has been synced to this client.
 
 ## Makefile
-We also provide a make file for you to run the BlockStore and MetaStore servers.
 1. Run both BlockStore and MetaStore servers (**listens to localhost on port 8081**):
 ```shell
 make run-both
@@ -160,5 +159,3 @@ make run-blockstore
 make run-metastore
 ```
 
-## Testing 
-On gradescope, only a subset of test cases will be visible, so we highly encourage you to come up with different scenarios like the one described above. You can then match the outcome of your implementation to the expected output based on the theory provided in the writeup.
